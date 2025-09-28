@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "artemius-ai-bot"
+version = "1.0.0"
+description = "Artemius AI Telegram Bot with VIP subscription system"
+author = "Artemius Team"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "3.4.1"
+requests = "2.31.0"
+python-dotenv = "1.0.0"
+aiofiles = "23.2.0"
+pillow = "10.1.0"
+aiohttp = "3.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
